@@ -9,7 +9,7 @@ const Colaborate = () => {
           <div className=" text-blackis text-5xl font-bold text-center mb-12 inline-block">
             Collaborate without <br /> constraints
           </div>
-          <div className=" bg-[#FFD02F] text-blackis px-4 py-1 rounded absolute -top-20 right-60 rotate-12 font-semibold">
+          <div className=" bg-[#FFD02F] text-blackis px-4 py-1 rounded-lg absolute -top-20 right-10 lg:right-60 rotate-12 font-semibold">
             YOUR IDEA STARTS HERE
           </div>
         </div>
