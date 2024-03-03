@@ -29,10 +29,10 @@ const WorkTab = () => {
             Strategic Planning
           </button>
         </div>
-        <div className=" grid grid-cols-2 gap-5 py-6">
-          <div className=" space-y-[30px]">
+        <div className="flex py-6">
+          <div className=" space-y-[30px] w-[40%]">
             <h2 className=" text-lg text-blackis">Brainstorming</h2>
-            <p className=" text-grey/50">
+            <p className=" text-grey/50 w-[80%]">
               Unleash creative ideas and build on them with the help of sticky
               notes, images, mind maps, videos, drawing capabilities — the list
               goes on.
@@ -42,8 +42,8 @@ const WorkTab = () => {
               <IoIosArrowRoundForward />
             </button>
           </div>
-          <div>
-            <img className=" w-[700px]" src="./worktab.png" alt="" />
+          <div className=" w-[60%]">
+            <img className=" w-[700px] h-[517px]" src="./worktab.png" alt="" />
           </div>
         </div>
       </div>

@@ -6,6 +6,7 @@ import Work from "./components/homepage/work/work";
 import Connect from "./components/homepage/connect/connect";
 import BgSection from "./components/homepage/bgSection/bgSection";
 import WorkTab from "./components/homepage/workTab/workTab";
+import Team from "./components/homepage/team/team";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <Connect />
       <BgSection />
       <WorkTab />
+      <Team />
     </div>
   );
 }
