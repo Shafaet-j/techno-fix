@@ -5,11 +5,11 @@ const Colaborate = () => {
   return (
     <section className=" flex items-center py-16 px-5">
       <div className="max-w-[1140px] mx-auto">
-        <div className=" text-center relative">
-          <div className=" text-blackis text-3xl lg:text-5xl font-bold text-center mb-12 inline-block">
+        <div className=" text-center md:relative">
+          <div className=" text-blackis text-3xl lg:text-5xl font-bold text-center mb-5 md:mb-12 inline-block">
             Collaborate without <br /> constraints
           </div>
-          <div className=" bg-[#FFD02F] text-blackis px-4 py-1 rounded-lg absolute -top-16 right-10 lg:right-60 rotate-12 font-semibold">
+          <div className=" bg-[#FFD02F] text-blackis px-4 py-1 rounded-lg md:absolute -top-16 right-10 lg:right-60 md:rotate-12 font-semibold inline-block mb-5 md:mb-0">
             YOUR IDEA STARTS HERE
           </div>
         </div>

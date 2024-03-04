@@ -6,7 +6,7 @@ const BestTeam = () => {
     <section className=" flex items-center py-16">
       <div className="max-w-[1140px] mx-auto">
         <div className=" text-center relative mb-10">
-          <h2 className=" text-blackis text-5xl font-bold text-center mb-6 inline-block">
+          <h2 className=" text-blackis text-3xl lg:text-5xl font-bold text-center mb-6 inline-block">
             Loved by the world's best teams
           </h2>
           <div className=" flex justify-center">

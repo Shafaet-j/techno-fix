@@ -5,7 +5,7 @@ const Team = () => {
   return (
     <section className=" py-10 px-5">
       <div className=" max-w-[1140px] mx-auto">
-        <h2 className=" text-5xl text-left text-blackis font-bold">
+        <h2 className=" text-3xl lg:text-5xl text-left text-blackis font-bold">
           Built for all kinds of teams
         </h2>
         <div className=" flex flex-wrap gap-2 items-center mt-8 mb-6">

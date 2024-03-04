@@ -37,7 +37,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <header className=" bg-white px-8 py-6 shadow">
+    <header className=" bg-white px-8 py-6 shadow sticky top-0 z-50">
       <div className=" flex items-center justify-between max-w-[1440px] mx-auto">
         <div className=" flex items-center gap-5 text-blackis">
           <img src="./logoT.png" alt="" />
