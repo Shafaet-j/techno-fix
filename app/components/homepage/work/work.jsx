@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Work = () => {
   return (
-    <section className=" flex items-center py-10">
+    <section className=" flex items-center py-10 px-5">
       <div className="max-w-[1140px] mx-auto">
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5  mb-10 items-center">
           <div>
@@ -21,7 +21,7 @@ const Work = () => {
             </button>
           </div>
           <div>
-            <img src="./work.png" alt="" />
+            <img className=" w-full" src="./work.png" alt="" />
           </div>
         </div>
       </div>

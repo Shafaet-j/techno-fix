@@ -8,7 +8,7 @@ import {
 const Footer = () => {
   return (
     <footer className=" bg-[#02033B] py-[96px] px-5">
-      <div className=" max-w-[1140px] mx-auto md:flex lg:gap-16 md:gap-5 gap-y-4">
+      <div className=" max-w-[1140px] mx-auto md:flex md:flex-wrap md:justify-center lg:gap-16 md:gap-5 gap-y-4">
         <div className=" mb-5 md:mb-0">
           <h2 className=" text-2xl font-black text-white mb-12">
             Scan. Detect. Remove.

@@ -3,17 +3,17 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Colaborate = () => {
   return (
-    <section className=" flex items-center py-16">
+    <section className=" flex items-center py-16 px-5">
       <div className="max-w-[1140px] mx-auto">
         <div className=" text-center relative">
-          <div className=" text-blackis text-5xl font-bold text-center mb-12 inline-block">
+          <div className=" text-blackis text-3xl lg:text-5xl font-bold text-center mb-12 inline-block">
             Collaborate without <br /> constraints
           </div>
-          <div className=" bg-[#FFD02F] text-blackis px-4 py-1 rounded-lg absolute -top-20 right-10 lg:right-60 rotate-12 font-semibold">
+          <div className=" bg-[#FFD02F] text-blackis px-4 py-1 rounded-lg absolute -top-16 right-10 lg:right-60 rotate-12 font-semibold">
             YOUR IDEA STARTS HERE
           </div>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  mb-10">
+        <div className=" grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-5  mb-10">
           <div>
             <h2 className=" text-blackis font-bold text-2xl">Free forever</h2>
             <p className=" text-grey/50 w-[65%]">

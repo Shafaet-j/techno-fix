@@ -7,7 +7,8 @@ const BgSection = () => {
       <div
         style={{
           background: "url(./section.png) center center / contain no-repeat",
-          height: "70vh",
+          minHeight: "500px",
+          width: "100%",
         }}
         className=" max-w-[1140px] mx-auto flex justify-end items-center pr-10"
       >

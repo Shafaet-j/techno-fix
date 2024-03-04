@@ -3,9 +3,9 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 const Connect = () => {
   return (
-    <section className=" flex items-center py-10">
+    <section className=" flex items-center py-10 px-5">
       <div className="max-w-[1140px] mx-auto">
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-28  mb-10 items-center">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-28 gap-14  mb-10 items-center">
           <div className=" order-2">
             <h2 className=" text-blackis font-bold text-5xl mb-4">
               Connect your tools, close your tabs
@@ -21,7 +21,7 @@ const Connect = () => {
             </button>
           </div>
           <div className=" order-1">
-            <img src="./connect.png" alt="" />
+            <img className=" w-full" src="./connect.png" alt="" />
           </div>
         </div>
       </div>
