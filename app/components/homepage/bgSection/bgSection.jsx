@@ -4,15 +4,11 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 const BgSection = () => {
   return (
     <section className=" py-10">
-      <div
-        style={{
-          background: "url(./section.png) center center / contain no-repeat",
-          minHeight: "500px",
-          width: "100%",
-        }}
-        className=" max-w-[1140px] mx-auto flex justify-end items-center pr-10"
-      >
-        <div className=" space-y-[8px] px-3">
+      <div className=" max-w-[1140px] mx-auto lg:flex justify-end items-center gap-5">
+        <div className=" lg:relative top-0 bottom-0 w-full">
+          <img className="h-full w-full" src="./section.png" alt="" />
+        </div>
+        <div className=" space-y-[8px] md:pr-7 lg:absolute ">
           <h2 className=" text-2xl font-bold text-blackis text-center">
             The Ways We Work
           </h2>
