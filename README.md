@@ -16,6 +16,18 @@ bun dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
+# **TechnoFix**
+
+<a  href="https://techno-fix-ten.vercel.app/">
+<img  width="100%"  height="100%"  src="https://ibb.co/JHMN0qF"/>
+</a>
+
+### Front-end Technology :
+
+- **React**
+- **Next js**
+- **Tailwind**
+
 ## Live link
 
 (https://techno-fix-ten.vercel.app/)
