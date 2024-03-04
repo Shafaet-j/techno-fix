@@ -19,7 +19,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 # **TechnoFix**
 
 <a  href="https://techno-fix-ten.vercel.app/">
-<img  width="100%"  height="100%"  src="https://ibb.co/JHMN0qF"/>
+<img  width="100%"  height="100%"  src="https://i.ibb.co/PgfR3Mz/tec.png"/>
 </a>
 
 ### Front-end Technology :
