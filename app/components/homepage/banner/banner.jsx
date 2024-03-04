@@ -1,6 +1,7 @@
 import React from "react";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import { FaStar, FaStarHalf } from "react-icons/fa";
+import Image from "next/image";
 
 const Banner = () => {
   return (
@@ -45,7 +46,13 @@ const Banner = () => {
           </div>
         </div>
         <div>
-          <img className="w-full " src="./hero.png" alt="" />
+          {/* <img className="w-full " src="./hero.png" alt="" /> */}
+          <Image
+            className=" w-full h-full object-cover"
+            width={640}
+            height={462}
+            src="/hero.png"
+          />
         </div>
       </div>
     </section>
