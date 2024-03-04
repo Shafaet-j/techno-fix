@@ -3,7 +3,7 @@ import { IoIosArrowRoundForward, IoMdCheckmark } from "react-icons/io";
 
 const Team = () => {
   return (
-    <section className=" py-10">
+    <section className=" py-10 px-5">
       <div className=" max-w-[1140px] mx-auto">
         <h2 className=" text-5xl text-left text-blackis font-bold">
           Built for all kinds of teams
@@ -27,8 +27,8 @@ const Team = () => {
           </button>
           <button className=" px-4 py-3 rounded-full border">Sales</button>
         </div>
-        <div className="flex py-6">
-          <div className=" space-y-[30px] w-[40%] py-5">
+        <div className="md:flex py-6">
+          <div className=" space-y-[30px] lg:w-[40%] w-full py-5">
             <div className=" space-y-[16px]">
               <p className=" text-grey/50 flex items-center gap-2">
                 <IoMdCheckmark size={20} />
@@ -55,8 +55,12 @@ const Team = () => {
               <img src="./no.png" alt="" />
             </div>
           </div>
-          <div className=" w-[60%]">
-            <img className=" w-[700px] h-[517px]" src="./team.png" alt="" />
+          <div className=" lg:w-[60%] w-full">
+            <img
+              className="w-full lg:max-w-[700px] max-h-[517px]"
+              src="./team.png"
+              alt=""
+            />
           </div>
         </div>
       </div>

@@ -11,12 +11,12 @@ const BestTeam = () => {
           </h2>
           <div className=" flex justify-center">
             <button className=" flex items-center gap-2 border rounded-full text-blue border-blue py-[12px] px-7 text-center justify-center">
-              See all customer stories →
+              See all customer stories
               <IoIosArrowRoundForward />
             </button>
           </div>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  mb-10">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  mb-10 px-5">
           <div>
             <img className=" mb-8" src="./vmware.png" alt="" />
             <p className=" text-grey/50 w-[75%] mb-12">
@@ -43,7 +43,7 @@ const BestTeam = () => {
             </p>
           </div>
         </div>
-        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 px-5">
           <div className=" flex items-center gap-4">
             <img src="./div.png" alt="" />
             <div>
