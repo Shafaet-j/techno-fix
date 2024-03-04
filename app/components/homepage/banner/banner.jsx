@@ -7,7 +7,7 @@ const Banner = () => {
     <section className=" flex items-center py-16 px-5">
       <div className="max-w-[1140px] mx-auto lg:flex lg:gap-16">
         <div className="flex flex-col justify-between mb-10 lg:mb-0 gap-5">
-          <h1 className=" text-5xl font-bold text-blackis text-left">
+          <h1 className=" text-3xl lg:text-5xl font-bold text-blackis text-left">
             Take ideas from <br /> better to best
           </h1>
           <p className=" text-grey/60">

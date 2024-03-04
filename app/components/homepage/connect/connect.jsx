@@ -7,7 +7,7 @@ const Connect = () => {
       <div className="max-w-[1140px] mx-auto">
         <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 lg:gap-28 gap-14  mb-10 items-center">
           <div className=" order-2">
-            <h2 className=" text-blackis font-bold text-5xl mb-4">
+            <h2 className=" text-blackis font-bold text-3xl lg:text-5xl mb-4">
               Connect your tools, close your tabs
             </h2>
             <p className=" text-grey/50 mb-10">
