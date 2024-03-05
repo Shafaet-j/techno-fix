@@ -30,7 +30,10 @@ const MobileMenu = ({ onClose, open }) => {
       <Drawer style={{ background: "#4e5991" }} onClose={onClose} open={open}>
         <div className=" space-y-6 text-blackis px-6">
           {navlinks.map(({ path, title }) => (
-            <p className=" flex items-center gap-1 hover:text-blue duration-300 cursor-pointer">
+            <p
+              key={path}
+              className=" flex items-center gap-1 hover:text-blue duration-300 cursor-pointer"
+            >
               <span className=" text-xl font-bold text-left">{title}</span>
               <MdOutlineKeyboardArrowDown />
             </p>

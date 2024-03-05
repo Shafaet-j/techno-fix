@@ -44,7 +44,10 @@ const Navbar = () => {
           <div className=" hidden lg:block">
             <div className=" flex items-center gap-4">
               {navlinks.map(({ path, title }) => (
-                <p className=" flex items-center gap-1 hover:text-blue duration-300 cursor-pointer">
+                <p
+                  key={path}
+                  className=" flex items-center gap-1 hover:text-blue duration-300 cursor-pointer"
+                >
                   <span>{title}</span>
                   <MdOutlineKeyboardArrowDown />
                 </p>
